@@ -1,0 +1,124 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.mensagem {
+    color: #d9534f;
+    font-weight: bold;
+}
+
+.register-link {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}
+
+
+form {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="file"],
+form input[type="submit"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: calc(100% - 20px);
+    max-width: 280px;
+}
+
+form input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+.candidato {
+    padding: 20px;  
+    margin: 10px;
+    background-color: white;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.candidato img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.candidato form {
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    margin-top: 10px;
+}
+
+.candidato input[type="submit"] {
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #337ab7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto;  
+    box-sizing: border-box; 
+}
+
+.candidato input[type="submit"]:hover {
+    background-color: #286090;
+}
+
+
+.resultados {
+    padding: 20px;
+}
+
+.resultados p {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
